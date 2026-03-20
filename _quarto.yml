@@ -1,0 +1,18 @@
+project:
+  type: book
+
+book:
+  title: "Project A"
+  favicon: images/exeter.png
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - methods.qmd
+    - results.qmd
+    - reporting_checklist.qmd
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/pythonhealthdatascience/quarto-template/
+  sidebar:
+    logo: images/exeter.png

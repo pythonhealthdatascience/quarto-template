@@ -1,0 +1,26 @@
+---
+author:
+  - name: Name Surname
+    orcid: 0000-0000-0000
+    affiliations: University of Exeter Team A
+  - name: Name Surname
+    orcid: 0000-0000-0000
+    affiliations: University of Exeter Team B
+date: 03-20-2026
+---
+
+## Overview {.unnumbered}
+
+Short paragraph introducing the research project in plain language.
+
+## Citation
+
+To cite this work, please use the following format:
+
+## Funding
+
+This project is funded by...
+
+## Licence
+
+This work is licensed under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) licence.
