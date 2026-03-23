@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Project Name",
+    "title": "Project A",
     "section": "",
     "text": "Overview\nShort paragraph introducing the research project in plain language.",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
-    "title": "Project Name",
+    "title": "Project A",
     "section": "Citation",
     "text": "Citation\nTo cite this work, please use the following format:",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#funding",
     "href": "index.html#funding",
-    "title": "Project Name",
+    "title": "Project A",
     "section": "Funding",
     "text": "Funding\nThis project is funded by…",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#licence",
     "href": "index.html#licence",
-    "title": "Project Name",
+    "title": "Project A",
     "section": "Licence",
     "text": "Licence\nThis work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence.",
     "crumbs": [
