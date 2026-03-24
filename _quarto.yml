@@ -2,17 +2,18 @@ project:
   type: book
 
 book:
-  title: "Project A"
+  title: "Quarto Template"
   favicon: images/exeter.png
   chapters:
     - index.qmd
-    - introduction.qmd
-    - methods.qmd
-    - results.qmd
-    - reporting_checklist.qmd
+    - pages/markdown.qmd
+    - pages/frontmatter.qmd
+    - pages/embed.qmd
+    - pages/code.qmd
   navbar:
     right:
       - icon: github
+        text: GitHub
         href: https://github.com/pythonhealthdatascience/quarto-template/
   sidebar:
     logo: images/exeter.png

@@ -1,10 +1,17 @@
-# quarto-template
-Template for creating quarto site, which can be opened in GitHub codespaces.
+# Quarto Template
 
-Show capabilities...
+This repository is a small Quarto website that we will use during the tutorial:
 
-* Videos embedded
-* Websites embedded
-* PDF embedded
-* Images
-* Code? Maybe a simple python example... OR maybe I have a template and then I have another example implemented with python with a simple example?
+> **Introduction to Quarto for Research Projects**. [Tutorial Website](https://pythonhealthdatascience.github.io/quarto-tutorial/).
+
+By the end of the tutorial you will have:
+
+* Opened this template in RStudio on GitHub Codespaces.
+* Made a change and rendered the quarto site.
+* Made a GitHub commit in a forked version of the repository.
+* Used markdown text, callouts, images, videos and other embedded content.
+* Modified YAML front matter.
+* Customised site appearance using CSS.
+* Run code chunks.
+
+This repository is shared under a CC-BY-4.0 license.
