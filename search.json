@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Project A",
+    "title": "Quarto Template",
     "section": "",
     "text": "Overview\nShort paragraph introducing the research project in plain language.",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#citation",
     "href": "index.html#citation",
-    "title": "Project A",
+    "title": "Quarto Template",
     "section": "Citation",
     "text": "Citation\nTo cite this work, please use the following format:",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#funding",
     "href": "index.html#funding",
-    "title": "Project A",
+    "title": "Quarto Template",
     "section": "Funding",
     "text": "Funding\nThis project is funded by…",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#licence",
     "href": "index.html#licence",
-    "title": "Project A",
+    "title": "Quarto Template",
     "section": "Licence",
     "text": "Licence\nThis work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence.",
     "crumbs": [
@@ -40,103 +40,33 @@
     ]
   },
   {
-    "objectID": "introduction.html",
-    "href": "introduction.html",
-    "title": "1  Introduction",
+    "objectID": "pages/markdown.html",
+    "href": "pages/markdown.html",
+    "title": "1  Markdown",
     "section": "",
-    "text": "1.1 Background\nThis section introduces the context for your study and why it matters.",
+    "text": "headers bold italics images tables Callouts Collapsible callouts Cross referencing Mermaid diagrams? (no?)",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Markdown</span>"
     ]
   },
   {
-    "objectID": "introduction.html#research-question-and-aims",
-    "href": "introduction.html#research-question-and-aims",
-    "title": "1  Introduction",
-    "section": "1.2 Research question and aims",
-    "text": "1.2 Research question and aims\n\nAim 1\nAim 2",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "methods.html",
-    "href": "methods.html",
-    "title": "2  Methods",
+    "objectID": "pages/embed.html",
+    "href": "pages/embed.html",
+    "title": "3  Embed",
     "section": "",
-    "text": "2.1 Study design\nDescribe.",
+    "text": "Videos embedded\nWebsites embedded\nPDF embedded",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Embed</span>"
     ]
   },
   {
-    "objectID": "methods.html#participants-data-source",
-    "href": "methods.html#participants-data-source",
-    "title": "2  Methods",
-    "section": "2.2 Participants / Data source",
-    "text": "2.2 Participants / Data source\nDescribe.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
-    ]
-  },
-  {
-    "objectID": "methods.html#data-collection",
-    "href": "methods.html#data-collection",
-    "title": "2  Methods",
-    "section": "2.3 Data collection",
-    "text": "2.3 Data collection\nDescribe.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
-    ]
-  },
-  {
-    "objectID": "methods.html#analysis",
-    "href": "methods.html#analysis",
-    "title": "2  Methods",
-    "section": "2.4 Analysis",
-    "text": "2.4 Analysis\nDescribe.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
-    ]
-  },
-  {
-    "objectID": "methods.html#ethics",
-    "href": "methods.html#ethics",
-    "title": "2  Methods",
-    "section": "2.5 Ethics",
-    "text": "2.5 Ethics\nDescribe",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
-    ]
-  },
-  {
-    "objectID": "results.html",
-    "href": "results.html",
-    "title": "3  Results",
+    "objectID": "pages/code.html",
+    "href": "pages/code.html",
+    "title": "4  Code",
     "section": "",
-    "text": "3.1 Key findings\nText",
+    "text": "r code make figure r code annotation?",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Results</span>"
-    ]
-  },
-  {
-    "objectID": "results.html#figurestables",
-    "href": "results.html#figurestables",
-    "title": "3  Results",
-    "section": "3.2 Figures/tables",
-    "text": "3.2 Figures/tables\nText\n\n\n\n\nText\nText\n\n\n\n\nA\n1\n\n\nB\n2\n\n\n\nImport from excel csv too.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Results</span>"
-    ]
-  },
-  {
-    "objectID": "reporting_checklist.html",
-    "href": "reporting_checklist.html",
-    "title": "4  Reporting checklist",
-    "section": "",
-    "text": "…",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Reporting checklist</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Code</span>"
     ]
   }
 ]
