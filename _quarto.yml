@@ -5,7 +5,8 @@ book:
   title: "Quarto Template"
   favicon: images/exeter.png
   chapters:
-    - index.qmd
+    - text: Overview
+      href: index.qmd
     - pages/markdown.qmd
     - pages/frontmatter.qmd
     - pages/embed.qmd
