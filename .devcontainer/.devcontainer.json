@@ -2,7 +2,10 @@
 
 {
   "name": "RStudio with Quarto",
-  "image": "ghcr.io/rocker-org/devcontainer/tidyverse:4.4",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
   "runArgs": [ "--security-opt", "seccomp=unconfined" ],
   "waitFor": "onCreateCommand",
 
@@ -20,17 +23,18 @@
         "r.bracketedPaste": true,
         "r.plot.useHttpgd": true,
         "[r]": {
-          "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\\\|;:'\\\",<>/?"
+          "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?"
         }
       },
       "extensions": [
-        "REditorSupport.r",
-        "rdebugger.r-debugger",
+        "reditorsupport.r",
+			  "rdebugger.r-debugger",
         "quarto.quarto"
       ]
     }
   },
 
+  // Forward the RStudio ports
   "forwardPorts": [8787],
   "portsAttributes": {
     "8787": {
