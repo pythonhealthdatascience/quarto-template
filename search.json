@@ -1,42 +1,46 @@
 [
   {
+    "objectID": "pages/embed.html",
+    "href": "pages/embed.html",
+    "title": "Embed",
+    "section": "",
+    "text": "Videos embedded\nWebsites embedded\nPDF embedded",
+    "crumbs": [
+      "GitHub",
+      "Embed"
+    ]
+  },
+  {
+    "objectID": "pages/code.html",
+    "href": "pages/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "r code make figure r code annotation?",
+    "crumbs": [
+      "GitHub",
+      "Code"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Quarto Template",
     "section": "",
     "text": "This is a small Quarto website that we will use during the tutorial:\n\nIntroduction to Quarto for Research Projects. Tutorial Website.\n\n\nBy the end of the tutorial you will have:\n\nOpened this template in RStudio on GitHub Codespaces.\nMade a change and rendered the quarto site.\nMade a GitHub commit in a forked version of the repository.\nUsed markdown text, callouts, images, videos and other embedded content.\nModified YAML front matter.\nCustomised site appearance using CSS.\nRun code chunks.\n\nTo cite this work, please use the following format: TODO.\nThis course was developed as part of the STARS project. STARS is supported by the Medical Research Council [grant number MR/Z503915/1].\nThis work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Overview</span>"
+      "GitHub",
+      "Overview"
     ]
   },
   {
     "objectID": "pages/markdown.html",
     "href": "pages/markdown.html",
-    "title": "2  Markdown",
+    "title": "Markdown",
     "section": "",
     "text": "headers bold italics images tables Callouts Collapsible callouts Cross referencing Mermaid diagrams? (no?)",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Markdown</span>"
-    ]
-  },
-  {
-    "objectID": "pages/embed.html",
-    "href": "pages/embed.html",
-    "title": "4  Embed",
-    "section": "",
-    "text": "Videos embedded\nWebsites embedded\nPDF embedded",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Embed</span>"
-    ]
-  },
-  {
-    "objectID": "pages/code.html",
-    "href": "pages/code.html",
-    "title": "5  Code",
-    "section": "",
-    "text": "r code make figure r code annotation?",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Code</span>"
+      "GitHub",
+      "Markdown"
     ]
   }
 ]
