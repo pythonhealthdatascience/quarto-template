@@ -1,20 +1,13 @@
-# Source: Adapted from https://github.com/boettiger-lab/nasa-topst-env-justice (MIT)
+# Source: https://github.com/boettiger-lab/nasa-topst-env-justice (MIT)
+# Comments from https://github.com/AnushaPB/codespacer
 
-#!/usr/bin/env bash
-set -euo pipefail
+# Copies a configuration file to disable authentication on RStudio Server,
+# making it accessible without needing to log in.
+sudo cp /etc/rstudio/disable_auth_rserver.conf /etc/rstudio/rserver.conf
 
-# Ensure RStudio runs without password inside Codespace
-if [ -f /etc/rstudio/disable_auth_rserver.conf ]; then
-  sudo cp /etc/rstudio/disable_auth_rserver.conf /etc/rstudio/rserver.conf
-fi
+# Adds "USER=rstudio" to the end of the /etc/environment file,
+# setting a system-wide environment variable to specify the default user for RStudio.
+sudo sudo bash -c 'echo "USER=rstudio" >>/etc/environment'
 
-# Make sure USER is rstudio so RStudio knows who to log in
-sudo bash -c 'echo "USER=rstudio" >> /etc/environment'
-
-# Start RStudio Server in the background if not running
-if ! pgrep -x "rserver" > /dev/null 2>&1; then
-  sudo rstudio-server start
-fi
-
-# Minimal R packages you might want – optional
-Rscript -e 'install.packages(c("quarto"), repos = "https://cloud.r-project.org")' || true
+# Start the RStudio Server in the background
+sudo /init &> /dev/null &

@@ -3,6 +3,7 @@
 {
   "name": "RStudio with Quarto",
   "image": "ghcr.io/rocker-org/devcontainer/tidyverse:4.4",
+  "runArgs": [ "--security-opt", "seccomp=unconfined" ],
   "waitFor": "onCreateCommand",
 
   "features": {
@@ -25,9 +26,7 @@
       "extensions": [
         "REditorSupport.r",
         "rdebugger.r-debugger",
-        "quarto.quarto",
-        "ms-toolsai.jupyter",
-        "ms-python.python"
+        "quarto.quarto"
       ]
     }
   },
@@ -37,12 +36,12 @@
     "8787": {
       "label": "RStudio",
       "requireLocalPort": true,
-      "onAutoForward": "openBrowser"
+      "onAutoForward": "ignore"
     }
   },
 
-  "onCreateCommand": "bash .devcontainer/setup.sh",
-  "postAttachCommand": "bash .devcontainer/welcome.sh",
-
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "postAttachCommand": "sudo rstudio-server start &> /dev/null && bash .devcontainer/welcome.sh",
   "remoteUser": "rstudio"
 }
