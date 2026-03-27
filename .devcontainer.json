@@ -1,8 +1,0 @@
-{
-    "name": "RStudio Environment",
-    "image": "rocker/rstudio:latest",
-    "extensions": [
-        "REditorSupport.r",
-        "quarto.quarto"
-    ]
-}
